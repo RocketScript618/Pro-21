@@ -82,12 +82,12 @@ function setup() {
   bike.add(bike1);
   bike1.scale = 1.5;
 
-  glider1 = createSprite(bike1.x-175,height/2+300);
+  glider1 = createSprite(bike1.x-175,height/2+400);
   glider1.addImage(gliderImg);
   glider1.scale= 2.5;
   glider1.setCollider("rectangle",0,0,140,45);
 
-  glider2 = createSprite(bike1.x+175,height/2+300);
+  glider2 = createSprite(bike1.x+175,height/2+400);
   glider2.addImage(gliderImg);
   glider2.setCollider("rectangle",0,0,140,45);
   glider2.scale= 2.5;
